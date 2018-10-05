@@ -1,0 +1,19 @@
+{
+  "name": "txtlist",
+  "version": "1.0.0",
+  "description": "system to treat phone number list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFDValente/txtlist.git"
+  },
+  "author": "JFDValente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JFDValente/txtlist/issues"
+  },
+  "homepage": "https://github.com/JFDValente/txtlist#readme"
+}
