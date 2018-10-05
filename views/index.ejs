@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <br>
+    <br>
+    <br>
+    <form action="phoneList" method="post" enctype="multipart/form-data">
+      <input type="file" name="file"><br>
+      <input type="submit">
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <% if(file){ %>
+      <form action="download" method="post">
+        <input type="text" name="file" value=<%= file %> hidden="true"><br>
+        <input type="submit" value="DOWNLOAD">
+      </form>
+    <% } %>
+  </body>
+</html>
